@@ -22,27 +22,24 @@ Los identificadores deberan contener letras de la a a la z en minúscula, mayús
 Los operadores son infijos: >, <, =. 
 
 # Especificaciones Sintácticas
-
+```
  <programa> ::= BEGIN <lista_sentencias> END
-
  <lista_sentencias> ::= <sentencia> <lista_sentencias>
                      | <sentencia>
-
  <sentencia> ::= TEMP '=' NUMBER
               | PRESION '=' NUMBER
               | CONFINADO '=' BOOL
               | ID '=' NUMBER
               | ID '=' BOOL
               | IF <condicion> THEN <sentencia>
-
  <condicion> ::= <variable_critica> '>' NUMBER
               | <variable_critica> '<' NUMBER
               | <variable_critica> '=' BOOL
-
  <variable_critica> ::= TEMP
                      | PRESION
                      | CONFINADO
-                     
+```
+                   
 # Especificaciones Semánticas
 
 El análisis semántico se realiza de forma directa sobre la tabla de símbolos (variables_entorno). El sistema evalúa tres variables críticas (TEMP, PRESION, CONFINADO) y aplica de manera estricta las siguientes reglas operativas basadas en el comportamiento químico real del Nitrato de Amonio.
