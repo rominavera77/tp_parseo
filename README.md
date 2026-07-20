@@ -23,23 +23,23 @@ Los operadores son infijos: >, <, =.
 
 # Especificaciones Sintácticas
 
-<programa> ::= BEGIN <lista_sentencias> END
+ <programa> ::= BEGIN <lista_sentencias> END
 
-<lista_sentencias> ::= <sentencia> <lista_sentencias>
+ <lista_sentencias> ::= <sentencia> <lista_sentencias>
                      | <sentencia>
 
-<sentencia> ::= TEMP '=' NUMBER
+ <sentencia> ::= TEMP '=' NUMBER
               | PRESION '=' NUMBER
               | CONFINADO '=' BOOL
               | ID '=' NUMBER
               | ID '=' BOOL
               | IF <condicion> THEN <sentencia>
 
-<condicion> ::= <variable_critica> '>' NUMBER
+ <condicion> ::= <variable_critica> '>' NUMBER
               | <variable_critica> '<' NUMBER
               | <variable_critica> '=' BOOL
 
-<variable_critica> ::= TEMP
+ <variable_critica> ::= TEMP
                      | PRESION
                      | CONFINADO
                      
