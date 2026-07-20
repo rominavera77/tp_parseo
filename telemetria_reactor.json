@@ -1,0 +1,15 @@
+{
+    "origen": "Compilador_Industrial_Nitrato_Amonio",
+    "estado_variables": {
+        "TEMP": 315,
+        "PRESION": 4,
+        "CONFINADO": false
+    },
+    "alertas": [
+        {
+            "nivel": "CRITICAL",
+            "mensaje": "Temperatura extrema (315°C). Superado umbral seguro en masa."
+        }
+    ],
+    "requiere_accion_inmediata": true
+}
