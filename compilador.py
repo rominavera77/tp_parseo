@@ -11,9 +11,6 @@ import tkinter as tk
 from tkinter import messagebox
 import sys
 
-# # Configuración de logs en consola para el operador
-# logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
-# logger = logging.getLogger("IndustrialLogger")
 # =====================================================================
 # CONFIGURACIÓN DEL SISTEMA DE REGISTRO EN DISCO (AUDITORÍA INDUSTRIAL)
 # =====================================================================

@@ -13,3 +13,12 @@
 2026-07-20 03:23:13 [WARNING] (MODULO_REACTOR): Alta presión (8 atm) combinada con calor incrementa el índice de riesgo.
 2026-07-20 03:23:13 [WARNING] (MODULO_REACTOR): ESTRUCTURA CONDICIONAL: Interlock lógico activado.
 2026-07-20 03:23:18 [CRITICAL] (MODULO_REACTOR): Temperatura extrema (315°C). Superado umbral seguro en masa.
+2026-07-20 03:26:31 [ERROR] (MODULO_REACTOR): LÉXICO: Carácter ilegal '$'
+2026-07-20 03:26:31 [WARNING] (MODULO_REACTOR): Temperatura crítica (220°C). Inicio de descomposición térmica.
+2026-07-20 03:26:31 [ERROR] (MODULO_REACTOR): SINTÁCTICO: Error de sintaxis en la entrada.
+2026-07-20 03:26:34 [WARNING] (MODULO_REACTOR): Temperatura crítica (230°C). Inicio de descomposición térmica.
+2026-07-20 03:26:36 [WARNING] (MODULO_REACTOR): Temperatura crítica (245°C). Inicio de descomposición térmica.
+2026-07-20 03:26:36 [CRITICAL] (MODULO_REACTOR): Material CONFINADO a alta temperatura. Peligro de sobrepresión.
+2026-07-20 03:26:36 [WARNING] (MODULO_REACTOR): Alta presión (8 atm) combinada con calor incrementa el índice de riesgo.
+2026-07-20 03:26:36 [WARNING] (MODULO_REACTOR): ESTRUCTURA CONDICIONAL: Interlock lógico activado.
+2026-07-20 03:26:38 [CRITICAL] (MODULO_REACTOR): Temperatura extrema (315°C). Superado umbral seguro en masa.
